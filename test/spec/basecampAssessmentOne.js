@@ -1,20 +1,4 @@
-describe('myName', function () {
-	it('should exist and be a string', function () {
-		expect(myName).toEqual(jasmine.any(String));
-	})
-})
 
-describe('faveNum', function () {
-	it('should exist and be a number', function () {
-		expect(faveNum).toEqual(jasmine.any(Number));
-	})
-})
-
-describe('lovesCode', function () {
-	it('should be equal to true', function () {
-		expect(lovesCode).toEqual(false);
-	})
-})
 
 describe('me', function () {
 	it('should equal the correct string', function () {
